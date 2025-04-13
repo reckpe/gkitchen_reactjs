@@ -1,3 +1,4 @@
+// src/index.scss
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,4 +7,41 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+@layer base {
+  :root {
+    --color-blue: #007bff;
+    --color-indigo: #6610f2;
+    --color-purple: #6f42c1;
+    --color-pink: #e83e8c;
+    --color-red: #dc3545;
+    --color-orange: #fd7e14;
+    --color-yellow: #ffc107;
+    --color-green: rgb(1, 107, 55);
+    --color-teal: #20c997;
+    --color-cyan: #17a2b8;
+    --color-white: #fff;
+    --color-gray: #6c757d;
+    --color-gray1: rgba(245, 245, 245, 1);
+    --color-gray2: rgba(238, 238, 238, 1);
+    --color-gray3: rgba(224, 224, 224, 1);
+    --color-gray4: rgba(189, 189, 189, 1);
+    --color-gray5: rgba(158, 158, 158, 1);
+    --color-gray6: rgba(117, 117, 117, 1);
+    --color-gray7: rgba(97, 97, 97, 1);
+    --color-gray8: rgba(66, 66, 66, 1);
+    --color-gray9: rgba(33, 33, 33, 1);
+    --color-gray-dark: rgb(23, 23, 23);
+    --color-primary: #3caf4b;
+    --color-primary-hover: rgb(55, 160, 69);
+    --color-secondary: #6c757d;
+    --color-success: #28a745;
+    --color-info: #17a2b8;
+    --color-warning: #ffc107;
+    --color-danger: #dc3545;
+    --color-light: #f8f9fa;
+    --color-dark: #343a40;
+    --color-black: #000;
+  }
 }
