@@ -44,6 +44,7 @@ module.exports = {
         light: "var(--color-light)",
         dark: "var(--color-dark)",
         black: "var(--color-black)",
+        "black-light": "var(--color-black-light)",
       },
       screens: {
         xs: "0px",
@@ -77,6 +78,9 @@ module.exports = {
           '"Courier New"',
           "monospace",
         ],
+      },
+      boxShadow: {
+        headerShadow: "rgba(0, 0, 0, 0.25) 0px 15px 20px",
       },
     }, // Bạn có thể tùy chỉnh theme tại đây
   },
