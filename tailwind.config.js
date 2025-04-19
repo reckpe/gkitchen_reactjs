@@ -4,6 +4,7 @@
 const plugin = require("tailwindcss/plugin");
 
 module.exports = {
+  darkMode: ["class"],
   content: [
     "./src/**/*.{js,jsx,ts,tsx}", // Chỉ định các file Tailwind cần quét
     "./node_modules/@material-tailwind/react/components/**/*.{js,ts,jsx,tsx}",
@@ -57,32 +58,37 @@ module.exports = {
         sans: [
           "-apple-system",
           "BlinkMacSystemFont",
-          '"Segoe UI"',
+          'Segoe UI"',
           "Roboto",
-          '"Helvetica Neue"',
+          'Helvetica Neue"',
           "Arial",
-          '"Noto Sans"',
-          '"Liberation Sans"',
+          'Noto Sans"',
+          'Liberation Sans"',
           "sans-serif",
-          '"Apple Color Emoji"',
-          '"Segoe UI Emoji"',
-          '"Segoe UI Symbol"',
-          '"Noto Color Emoji"',
+          'Apple Color Emoji"',
+          'Segoe UI Emoji"',
+          'Segoe UI Symbol"',
+          'Noto Color Emoji"',
         ],
         mono: [
           "SFMono-Regular",
           "Menlo",
           "Monaco",
           "Consolas",
-          '"Liberation Mono"',
-          '"Courier New"',
+          'Liberation Mono"',
+          'Courier New"',
           "monospace",
         ],
       },
       boxShadow: {
         headerShadow: "rgba(0, 0, 0, 0.25) 0px 15px 20px",
       },
-    }, // Bạn có thể tùy chỉnh theme tại đây
+      borderRadius: {
+        lg: "var(--radius)",
+        md: "calc(var(--radius) - 2px)",
+        sm: "calc(var(--radius) - 4px)",
+      },
+    },
   },
   plugins: [
     // eslint-disable-next-line @typescript-eslint/no-require-imports

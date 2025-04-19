@@ -3,6 +3,8 @@ export default {
   recipe: "Công thức với G",
   promotion: "Khuyến mãi",
   language: "Tiếng Việt",
+  vi: "Tiếng Việt",
+  en: "Tiếng Anh",
   downloadApp: "Tải ứng dụng",
   delivery: "Giao hàng: Quận Gò Vấp",
   signIn: "Đăng nhập",

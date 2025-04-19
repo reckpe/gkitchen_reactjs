@@ -3,6 +3,8 @@ export default {
   recipe: "Recipe with G",
   promotion: "Promotion",
   language: "English",
+  vi: "Vietnamese",
+  en: "English",
   downloadApp: "Download app",
   delivery: "Delivery: Quận Gò Vấp",
   signIn: "Sign in",
